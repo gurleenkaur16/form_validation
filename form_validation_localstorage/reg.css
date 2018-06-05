@@ -1,0 +1,15 @@
+table {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+#recordTable td{
+text-align:center;
+}
+
+.submitBtnRow{
+padding:25px;
+text-align:center;
+}
+.submitBtnRow input[type="submit"]{
+padding: 5px 60px;

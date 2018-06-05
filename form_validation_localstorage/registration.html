@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>registration</title>
+	<link rel="stylesheet" href="reg.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<body>
+
+<form action="" name="ContactForm" id="myForm">
+
+<table>
+<tr><td>First Name:</td><td> <input type="text" name="Fname" placeholder="Enter First Name"><span id="fname"></span></td></tr>
+<tr><td>Last Name:</td><td><input type="text" name="Lname" placeholder="Enter Last Name"><span id="lname"></span></td></tr>
+<tr><td>Mobile: </td><td><input type="text" name="Mobile" placeholder="121212121"><span id="mobile"></span></td></tr>
+<tr><td>E-mail Address: </td><td><input type="text" name="Email" placeholder="sss@sss.sss "><span id="emailMsg"></span></td></tr>
+<tr><td>Your Gender:</td><td>
+
+		
+		<input type="radio" name="gender" value="Male" > Male
+		<input type="radio" name="gender" value="Female"> Female
+		<input type="radio" name="gender" value="Other"> Other
+		<br>
+		<span id="genderMsg"></span>
+
+</td></tr>
+
+<tr><td colspan="2"  class="submitBtnRow"><input type="button" onclick="ValidateContactForm()" value="Send" name="submit"></td></tr>
+</table>
+   
+
+</form>
+
+ <table id="recordTable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+					<th>Mobile Name</th>
+					<th>Email Name</th>
+					<th>Gender</th>
+                </tr>
+
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+	<script src="reg.js"></script>	
+</body>
+</html>
+
+ 
+
+
+
+
+
+
